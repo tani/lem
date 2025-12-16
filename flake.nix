@@ -140,7 +140,7 @@
             buildInputs =
               if pkgs.stdenv.isLinux then
                 [
-                  pkgs.webkitgtk_4_1
+                  pkgs.webkitgtk_6_0
                   pkgs.gtk3
                 ]
               else
@@ -299,7 +299,7 @@
             nativeLibs =
               if pkgs.stdenv.isLinux then
                 [
-                  pkgs.webkitgtk_4_1
+                  pkgs.webkitgtk_6_0
                   pkgs.gtk3
                   pkgs.stdenv.cc.cc.lib
                   c-webview

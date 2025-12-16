@@ -17,7 +17,7 @@ jobs:
           - ubuntu-24.04
           - ubuntu-24.04-arm
           - macos-15-arm
-          - macos-15-intel
+          # - macos-15-intel # sbcl is not supported for macos-15-intel
         backend:
           - lem-ncurses
           - lem-sdl2
